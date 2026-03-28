@@ -1,9 +1,17 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div class=" text_color">Hello world</div>
 </template>
+
+
+<style>
+  @reference "../main.css";
+
+  .text_color{
+    @apply text-green-700 text-3xl border-l;
+  }
+
+
+</style>
