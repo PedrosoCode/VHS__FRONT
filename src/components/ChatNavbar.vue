@@ -13,7 +13,7 @@ const bMenuAberto = shallowRef(true)
     </v-app-bar-nav-icon>
   </template>
 
-  <v-app-bar-title>Sistema HelpDesk By Pedroso </v-app-bar-title>
+  <v-app-bar-title>Chamado 123 - Suporte Faturamento </v-app-bar-title>
 
   <template v-slot:append>
     <v-btn icon="mdi-logout"></v-btn>
@@ -22,11 +22,11 @@ const bMenuAberto = shallowRef(true)
 </v-app-bar>
 
 <v-navigation-drawer :width="400" v-model="bMenuAberto">
-  <v-list-item title="My Application" subtitle="Vuetify"></v-list-item>
+  <v-list-item title="Anexos" subtitle="arquivos do chamado"></v-list-item>
   <v-divider></v-divider>
-  <v-list-item link title="List Item 1"></v-list-item>
-  <v-list-item link title="List Item 2"></v-list-item>
-  <v-list-item link title="List Item 3"></v-list-item>
+  <v-list-item link title="Print erro"></v-list-item>
+  <v-list-item link title="Print Tela"></v-list-item>
+  <v-list-item link title="XML NFE 836473"></v-list-item>
 </v-navigation-drawer>
 
 
