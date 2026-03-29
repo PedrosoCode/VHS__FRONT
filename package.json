@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.2.10",
+    "@mdi/font": "^7.4.47",
     "@tailwindcss/vite": "^4.2.2",
     "pinia": "^3.0.4",
     "tailwindcss": "^4.2.2",
