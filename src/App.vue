@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import './main.css'
+// import './main.css'
 </script>
 
 <template>
-  <RouterView />
+  <v-app>
+    <RouterView />
+  </v-app>
 </template>
