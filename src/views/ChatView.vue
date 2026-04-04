@@ -46,7 +46,7 @@
                                 variant="outlined" hide-details />
                         </v-col>
 
-                        <v-col cols="12" md="8">
+                        <v-col cols="4" md="8">
                             <v-btn block color="primary" size="large" @click="sendMessage">
                                 Enviar
                             </v-btn>
